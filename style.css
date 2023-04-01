@@ -1,0 +1,193 @@
+.stylemynav {
+    background-color: rgb(73, 6, 73);
+}
+
+.navstyle li a {
+    background-color: rgb(194, 14, 194);
+    color: blanchedalmond !important;
+    border: 1px solid rgb(19, 19, 163);
+    border-radius: 10% !important;
+}
+
+.navstyle li:hover a {
+    color: burlywood !important;
+    background-color: blueviolet;
+    border-radius: 15% !important;
+}
+
+.onlystyle h1 {
+    color: rgb(119, 5, 119);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.styleme {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.styleme h1 {
+    color: rgb(48, 6, 77);
+}
+
+.styleme p {
+    background-color: blanchedalmond;
+    border-radius: 15%;
+}
+
+.btnstyle {
+    background-color: rgb(99, 5, 99);
+    margin-left: 45%;
+    text-decoration: underline;
+}
+
+.btnstyle span {
+    color: white;
+}
+
+.btnstyle:hover {
+    background-color: brown;
+}
+
+.btnstyle span:hover {
+    color: blueviolet;
+}
+
+.mine {
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 10%;
+    height: 200px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: yellow;
+    animation: mymoves 3s infinite;
+    margin-top: 6%;
+}
+
+@keyframes mymoves {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: rgb(105, 6, 105);
+    }
+}
+
+.myhp {
+    text-align: center;
+}
+
+.myname {
+    display: flex;
+}
+
+.manystyle {
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.floatn {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    position: fixed;
+    opacity: 0.5;
+    color: rgb(143, 17, 143);
+}
+
+.color {
+    background-color: rgb(8, 8, 75);
+}
+
+.hrstyle hr {
+    background-color: blueviolet;
+}
+
+.flexstyle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexinner {
+    background-color: #bbb;
+}
+
+.flexinner1 {
+    background-color: #9dc0c5;
+}
+
+.gridingstyle {
+    color: rgb(3, 3, 70);
+}
+
+.gridinner {
+    background-color: rgb(161, 161, 26);
+}
+
+.footerstyle {
+    background-color: rgb(41, 1, 41);
+}
+
+.bounce {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bounce h1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    -moz-animation: bouncing-text 5s linear infinite alternate;
+    -webkit-animation: bouncing-text 5s linear infinite alternate;
+    animation: bouncing-text 10s linear infinite alternate;
+}
+
+@-moz-keyframes bouncing-text {
+    0% {
+        -moz-transform: translateX(50%);
+    }
+    100% {
+        -moz-transform: translateX(-50%);
+    }
+}
+
+@-webkit-keyframes bouncing-text {
+    0% {
+        -webkit-transform: translateX(50%);
+    }
+    100% {
+        -webkit-transform: translateX(-50%);
+    }
+}
+
+@keyframes bouncing-text {
+    0% {
+        -moz-transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    100% {
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
