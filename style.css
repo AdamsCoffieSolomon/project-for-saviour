@@ -45,14 +45,6 @@
     color: white;
 }
 
-.btnstyle:hover {
-    background-color: brown;
-}
-
-.btnstyle span:hover {
-    color: blueviolet;
-}
-
 .mine {
     height: 300px;
     border-radius: 50%;
